@@ -33,13 +33,6 @@ Each preset adjusts the quality and performance of features such as shadows, SSR
 
 ## 🖥️ Compatibility
 
-This release is designed for:
-
-* **Minecraft Java 26.3**
-* **Iris 1.11.6**
-* **Sodium 0.9.2**
-* **Fabric**
-
 > Vulkan is not supported in this release. Please use **OpenGL**.
 
 ## 📦 Installation
@@ -96,13 +89,6 @@ VoidGlow دارای ۵ حالت گرافیکی است:
 هر Preset میزان کیفیت سایه‌ها، SSR، SSAO، God Rays، ابرهای حجمی، Bloom، Anti-Aliasing و سایر جلوه‌ها را تغییر می‌دهد.
 
 ## 🖥️ سازگاری
-
-این نسخه برای:
-
-* **Minecraft Java 26.3**
-* **Iris 1.11.6**
-* **Sodium 0.9.2**
-* **Fabric**
 
 ساخته شده است.
 
