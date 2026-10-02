@@ -1,95 +1,127 @@
-# 🌌 VoidGlow Shader
+# 🌌 VoidGlow v0.1 — First Release
 
-**VoidGlow** is a modern Minecraft shaderpack designed to transform the game with vibrant lighting, cinematic shadows, atmospheric skies, and a subtle glow effect while keeping the visuals smooth and immersive.
+The first public release of **VoidGlow Shader** is here! 🎉
 
-✨ **Features**
+VoidGlow is a cinematic Minecraft shaderpack focused on **natural lighting, soft shadows, atmospheric visuals, and balanced performance**.
 
-* 🌅 Beautiful atmospheric skies and sunsets
-* 💡 Dynamic and vibrant lighting
-* 🌑 Soft, realistic shadows
-* ✨ Subtle glow and bloom effects
-* 💧 Improved water reflections and transparency
-* 🌫️ Enhanced fog and atmosphere
-* 🔥 Emissive lighting for selected blocks and objects
-* ⚡ Optimized for smooth gameplay
-* 🎨 Designed for a balance between performance and visual quality
+## ✨ Main Features
 
-## 🎮 About
+* 🌑 Dynamic shadows with **PCF / PCSS** support
+* 💡 Natural and colored lighting for light sources
+* 🌿 Dynamic wind animations for grass, leaves, and vegetation
+* 🌧️ Wet surfaces and puddle reflections during rain
+* 💧 Animated water with light absorption and **Screen-Space Reflections**
+* 🌅 Dynamic skies with realistic sunlight, sunsets, and night lighting
+* ☀️ **God Rays** for atmospheric sunlight
+* 🌫️ Improved fog and atmospheric effects
+* ☁️ Volumetric clouds in higher-quality presets
+* ✨ **Bloom** for glowing light sources
+* 🎨 Cinematic color processing with **ACES Tonemapping**
+* 👁️ Automatic exposure for dark and bright environments
+* 🧠 **TAA / FXAA** Anti-Aliasing
+* 🧱 **LabPBR Normal and Specular Map** support
+* 🔥 Enhanced lighting for Torches, Lava, Fire, and other glowing objects
+* ⚙️ Extensive graphics options for customization
 
-VoidGlow focuses on creating a **clean, cinematic, and immersive Minecraft experience** without changing the core style of the game. Whether you're exploring caves, building massive structures, or watching the sunset, VoidGlow adds a new level of atmosphere to your world.
+## 🎛️ Presets
 
-## 🚀 Performance
+VoidGlow includes five quality presets:
 
-The shader is designed with performance in mind and aims to provide great visuals across a wide range of hardware. Performance may vary depending on your Minecraft version, GPU, resolution, and shader settings.
+**Potato · Low · Medium · High · Ultra**
+
+Each preset adjusts the quality and performance of features such as shadows, SSR, SSAO, God Rays, volumetric clouds, Bloom, Anti-Aliasing, and other visual effects.
+
+## 🖥️ Compatibility
+
+This release is designed for:
+
+* **Minecraft Java 26.3**
+* **Iris 1.11.6**
+* **Sodium 0.9.2**
+* **Fabric**
+
+> Vulkan is not supported in this release. Please use **OpenGL**.
 
 ## 📦 Installation
 
-1. Download the latest release of **VoidGlow**.
-2. Open your Minecraft shaderpacks folder.
-3. Place the VoidGlow `.zip` file inside the folder.
-4. Launch Minecraft and open **Video Settings → Shaders**.
-5. Select **VoidGlow** and enjoy! 🌌
+Place `VoidGlow.zip` directly into your Minecraft shaderpacks folder without extracting it:
 
-## 🛠️ Development
+`.minecraft/shaderpacks/`
 
-VoidGlow is actively developed and improved with new visual effects, optimizations, and compatibility updates.
+Then launch Minecraft and enable **VoidGlow** from the **Shader Packs** menu.
 
-Suggestions, bug reports, and contributions are welcome.
+## ⚠️ Version Status
 
-## 📜 License
+This is **v0.1**, the first public release of VoidGlow. Some features are still under development and optimization, and actual performance may vary depending on your hardware and graphics settings.
 
-See the `LICENSE` file for the terms of use and distribution.
+## 🚧 In Development
 
----
+More features, improvements, compatibility updates, and performance optimizations are planned for future releases.
 
-**Made with ❤️ for Minecraft**
+**VoidGlow — Bring your world to life. 🌌**
 
-# 🌌 VoidGlow Shader
+pershian:
 
-**VoidGlow** یک شیدرپک مدرن برای Minecraft است که با نورپردازی زیبا، سایه‌های سینمایی، آسمان‌های چشم‌نواز و افکت‌های درخشش ملایم، ظاهر بازی را جذاب‌تر و طبیعی‌تر می‌کند؛ در حالی که تجربه‌ای روان و لذت‌بخش را حفظ می‌کند.
+# 🌌 VoidGlow v0.1 — First Release
 
-✨ **ویژگی‌ها**
+اولین نسخه عمومی **VoidGlow Shader** منتشر شد! 🎉
 
-* 🌅 آسمان‌های زیبا و غروب‌های سینمایی
-* 💡 نورپردازی پویا و چشم‌نواز
-* 🌑 سایه‌های نرم و طبیعی
-* ✨ افکت‌های Glow و Bloom
-* 💧 بهبود بازتاب و شفافیت آب
-* 🌫️ مه و اتمسفر طبیعی‌تر
-* 🔥 نورپردازی برای بلوک‌ها و اشیای درخشان
-* ⚡ بهینه‌سازی برای اجرای روان‌تر
-* 🎨 حفظ سبک اصلی Minecraft در کنار کیفیت بصری بالاتر
+VoidGlow یک شیدرپک سینمایی برای Minecraft Java است که تمرکز آن روی **نورپردازی طبیعی، سایه‌های نرم، اتمسفر زیبا و عملکرد متعادل** است.
 
-## 🎮 درباره VoidGlow
+## ✨ ویژگی‌های اصلی
 
-هدف **VoidGlow** ایجاد یک تجربه‌ی **زیبا، سینمایی و فراگیر** در Minecraft است، بدون اینکه ظاهر اصلی و حس آشنای بازی از بین برود.
+* 🌑 سایه‌های دینامیک با پشتیبانی از **PCF / PCSS**
+* 💡 نورپردازی رنگی و طبیعی برای منابع نوری
+* 🌿 حرکت طبیعی چمن، برگ‌ها و گیاهان در باد
+* 🌧️ خیس شدن سطوح و ایجاد انعکاس و puddle هنگام بارندگی
+* 💧 آب متحرک با جذب نور و **Screen-Space Reflections**
+* 🌅 آسمان پویا با نور خورشید، غروب و شب
+* ☀️ **God Rays** برای ایجاد پرتوهای نور خورشید
+* 🌫️ مه و اتمسفر بهبود‌یافته
+* ☁️ پشتیبانی از ابرهای حجمی در Presetهای بالاتر
+* ✨ **Bloom** برای درخشش منابع نور
+* 🎨 پردازش رنگ سینمایی با **ACES Tonemapping**
+* 👁️ نوردهی خودکار برای محیط‌های تاریک و روشن
+* 🧠 **TAA / FXAA** برای Anti-Aliasing
+* 🧱 پشتیبانی از **LabPBR Normal و Specular Maps**
+* 🔥 نورپردازی اختصاصی برای Torch، Lava، Fire و Glow
+* ⚙️ تنظیمات گسترده برای شخصی‌سازی کیفیت گرافیک
 
-چه در حال کاوش غارها باشید، چه در حال ساخت یک شهر بزرگ، یا فقط تماشای غروب خورشید، VoidGlow تلاش می‌کند دنیای Minecraft را زنده‌تر و جذاب‌تر کند. 🌌
+## 🎛️ Presets
 
-## 🚀 عملکرد
+VoidGlow دارای ۵ حالت گرافیکی است:
 
-VoidGlow با تمرکز بر **تعادل میان کیفیت بصری و عملکرد** توسعه داده شده است و تلاش می‌کند روی طیف گسترده‌ای از سیستم‌ها تجربه‌ای روان ارائه دهد.
+**Potato · Low · Medium · High · Ultra**
 
-عملکرد شیدر بسته به کارت گرافیک، نسخه Minecraft، رزولوشن و تنظیمات گرافیکی شما می‌تواند متفاوت باشد.
+هر Preset میزان کیفیت سایه‌ها، SSR، SSAO، God Rays، ابرهای حجمی، Bloom، Anti-Aliasing و سایر جلوه‌ها را تغییر می‌دهد.
+
+## 🖥️ سازگاری
+
+این نسخه برای:
+
+* **Minecraft Java 26.3**
+* **Iris 1.11.6**
+* **Sodium 0.9.2**
+* **Fabric**
+
+ساخته شده است.
+
+> اجرای شیدر با Vulkan در این نسخه پشتیبانی نمی‌شود؛ از **OpenGL** استفاده کنید.
 
 ## 📦 نصب
 
-1. آخرین نسخه **VoidGlow** را دانلود کنید.
-2. فایل `.zip` شیدر را داخل پوشه `shaderpacks` قرار دهید.
-3. Minecraft را اجرا کنید.
-4. وارد **Video Settings → Shaders** شوید.
-5. **VoidGlow** را انتخاب کنید و از دنیای جدید خود لذت ببرید! ✨
+فایل `VoidGlow.zip` را بدون Extract کردن در پوشه زیر قرار دهید:
 
-## 🛠️ توسعه
+`.minecraft/shaderpacks/`
 
-VoidGlow به‌صورت مداوم توسعه داده می‌شود و قابلیت‌های جدید، بهینه‌سازی‌ها و بهبودهای گرافیکی بیشتری در آینده اضافه خواهند شد.
+سپس از داخل تنظیمات Minecraft، در بخش **Shader Packs**، گزینه **VoidGlow** را فعال کنید.
 
-گزارش باگ‌ها، پیشنهادها و مشارکت در توسعه پروژه مورد استقبال قرار می‌گیرد.
+## ⚠️ وضعیت نسخه
 
-## 📜 مجوز
+این نسخه **v0.1** است و اولین انتشار VoidGlow محسوب می‌شود. برخی قابلیت‌ها هنوز در حال توسعه و بهینه‌سازی هستند و عملکرد نهایی می‌تواند بسته به سخت‌افزار و تنظیمات گرافیکی متفاوت باشد.
 
-برای اطلاع از شرایط استفاده، تغییر و انتشار مجدد پروژه، فایل `LICENSE` را مطالعه کنید.
+## 🚧 در حال توسعه
 
----
+ویژگی‌ها و بهینه‌سازی‌های بیشتری در نسخه‌های آینده اضافه خواهند شد.
 
-**ساخته‌شده با ❤️ برای Minecraft**
+**VoidGlow — Bring your world to life. 🌌**
